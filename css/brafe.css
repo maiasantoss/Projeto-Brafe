@@ -80,3 +80,48 @@ body{
     background: #fff;
     margin:10px auto;
 }
+
+/*SOBRE*/
+
+.sobre {
+    padding: 60px 0;
+}
+
+.sobre h2 {
+    font-size: 2,25em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sobre-item {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.sobre > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 460px;
+    text-align: center;
+}
+
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item h3{
+    font-size: 2,225em;
+    line-height: 1em;
+    background-color: #252525;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    width: 220px;
+    top: -25px;
+    padding: 5px 0 10px 0;
+}
