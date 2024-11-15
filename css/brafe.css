@@ -27,7 +27,7 @@ body{
 .menu-nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.125em;
+    font-size: 1.25em;
 }
 
 .menu-nav {
@@ -88,7 +88,7 @@ body{
     padding: 60px 0;
 }
 
-.sobre h2 {
+.sobre > h2 {
     font-size: 2,25em;
     text-align: center;
     margin-bottom: 60px;
@@ -114,7 +114,7 @@ body{
 }
 
 .sobre-item h3{
-    font-size: 2,225em;
+    font-size: 2,25em;
     line-height: 1em;
     background-color: #252525;
     color: #fff;
@@ -141,14 +141,14 @@ body{
     margin: 0 10px 40px 10px;
 }
 
-.produtos-item h2{
+.produtos-item > h2{
     font-size: 2.25em;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .produtos-item p{
-    font-size: o.875em;
+    font-size: 0.875em;
     line-height: 1.4em;
 }
 
@@ -295,10 +295,10 @@ h2.produtos-mineiro::before{
 
 .footer-img{
     margin: 0 10px;
-    flex: 1;
 }
 
 .footer p {
     font-size: 1.125em;
     line-height: 1.4em;
+    flex: 1;
 }
